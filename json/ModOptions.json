@@ -1,0 +1,85 @@
+{
+    isBaseRuleset:true,
+    modUrl:"https://github.com/Giulian7/LOTR-Unciv",
+    author:Giulian7,
+    constants:{unitUpgradeCost:{}}
+}
+
+/*{
+		"name": "Patronage",
+		"era": "Classical era",
+		"uniques": ["City-State Influence degrades [25]% slower"],
+		"policies": [
+			{
+				"name": "Philantropy",
+				"uniques":["Gifts of Gold to City-States generate [25]% more Influence"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Aesthetics",
+				"uniques":["Resting point for Influence with City-States is increased by [20]"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Scholasticism",
+				"uniques":["Allied City-States provide Science equal to [25]% of what they produce for themselves"],
+				"requires": ["Philantropy"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Cultural Diplomacy",
+				"uniques": ["Quantity of Resources gifted by City-States increased by [100]%"],
+				"requires": ["Scholasticism"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Educated Elite",
+				"requires": ["Scholasticism","Aesthetics"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Patronage Complete"
+			}
+		]
+	},*/
+        /*{
+		"name": "Order",
+		"era": "Renaissance era",
+		"policies": [
+			{
+				"name": "Nationalism",
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "United Front",
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Planned Economy",
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Socialism",
+				"requires": ["Planned Economy"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Communism",
+				"requires": ["Socialism"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Order Complete", Gold and Culture per city"
+			}
+		]
+	},*/

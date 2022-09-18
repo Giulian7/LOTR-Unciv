@@ -1,0 +1,554 @@
+[
+    //	--	--	--	--	--	--	--ELVEN RINGS--	--	--	--	--	--	--
+	{
+		"name": "The 1st Elven Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Requires [Tradition Complete]",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Elven Rings]",
+
+			"Not displayed as an available construction without [Elven Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 2nd Elven Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Requires [Liberty Complete]",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Elven Rings]",
+			"Not displayed as an available construction without [Elven Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 3rd Elven Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Requires [Honor Complete]",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Elven Rings]",
+			"Not displayed as an available construction without [Elven Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+//	--	--	--	--	--MEN RINGS--	--	--	--	--	--	--
+	{
+		"name": "The 1st Men Ring",
+		"islWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Men Rings]",
+			"Not displayed as an available construction without [Men Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 2nd Men Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Men Rings]",
+			"Consumes [4] [Supply]",
+			"Not displayed as an available construction without [Men Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 3rd Men Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Men Rings]",
+			"Consumes [4] [Supply]",
+			"Not displayed as an available construction without [Men Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 4th Men Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Men Rings]",
+			"Consumes [4] [Supply]",
+			"Not displayed as an available construction without [Men Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 5th Men Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Men Rings]",
+			"Consumes [4] [Supply]",
+			"Not displayed as an available construction without [Men Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 6th Men Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Men Rings]",
+			"Consumes [4] [Supply]",
+			"Not displayed as an available construction without [Men Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 7th Men Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Men Rings]",
+			"Consumes [4] [Supply]",
+			"Not displayed as an available construction without [Men Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 8th Men Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Men Rings]",
+			"Consumes [4] [Supply]",
+			"Not displayed as an available construction without [Men Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 9th Men Ring",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [1] [Men Rings]",
+			"Consumes [4] [Supply]",
+			"Not displayed as an available construction without [Men Rings]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+//	--	--	--	--	--	--DWARVEN RINGS--	--	--	--	--	--
+	{
+		"name": "The 1st Dwarven Ring",
+		"isWonder": true,
+		"requiredResource": "Dwarven Rings",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [2] [Iron]",
+			"Not displayed as an available construction without [Iron]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 2nd Dwarven Ring",
+		"isWonder": true,
+		"requiredResource": "Dwarven Rings",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Not displayed as an available construction without [Mithril]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 3rd Dwarven Ring",
+		"isWonder": true,
+		"requiredResource": "Dwarven Rings",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Consumes [2] [Copper]",
+			"Not displayed as an available construction without [Copper]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 4th Dwarven Ring",
+		"isWonder": true,
+		"requiredResource": "Dwarven Rings",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Not displayed as an available construction without [Gold Ore]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 5th Dwarven Ring",
+		"isWonder": true,
+		"requiredResource": "Dwarven Rings",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Not displayed as an available construction without [Gems]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "The 7th Dwarven Ring",
+		"isWonder": true,
+		"requiredResource": "Dwarven Rings",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Ring]",
+			"Not displayed as an available construction without [Silver]",
+			"Not displayed as an available construction without [Palace]"
+		]
+	},
+	{
+		"name": "Fellbeast Training",
+		"uniqueTo": "Mordor",
+		"cost": 120,
+		"requiredTech": "Mathematics",
+		"uniques": [
+			"Provides [1] [Fellbeast]",
+			"Unsellable"
+		]
+	},
+	{
+		"name": "First Lightning Bolts",
+		"uniqueTo": "Isengard",
+		"cost": 1,
+		"uniques": [
+			"Not displayed as an available construction without [Palace]",
+			"Free [Lightning Bolt] appears",
+			"Unsellable",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Second Lightning Bolts",
+		"uniqueTo": "Isengard",
+		"cost": 1,
+		"uniques": [
+			"Not displayed as an available construction without [Palace]",
+			"Free [Lightning Bolt] appears",
+			"Unsellable",
+			"Unlocked with [Second Age]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Third Lightning Bolt",
+		"uniqueTo": "Isengard",
+		"cost": 1,
+		"uniques": [
+			"Not displayed as an available construction without [Palace]",
+			"Free [Lightning Bolt] appears",
+			"Unsellable",
+			"Unlocked with [Third Age]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Fourth Lightning Bolt",
+		"uniqueTo": "Isengard",
+		"cost": 1,
+		"uniques": [
+			"Not displayed as an available construction without [Palace]",
+			"Free [Lightning Bolt] appears",
+			"Unsellable",
+			"Unlocked with [Fourth Age]"
+		]
+	},
+	{
+		"name": "The Nazguls",
+		"uniqueTo": "Mordor",
+		"cost": 1,
+		"uniques": [
+            "Unlocked with [Second Age]",
+			"Provides [9] [Nazgul]",
+			"Unbuildable"
+		]
+	},
+	{
+		"name": "Watchtowers System",
+		"uniqueTo": "Arnor",
+		"cost": 20,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Can only be built [in capital]",
+			"Free [Watchtower Guard] appears",
+			"Unsellable"
+		]
+	},
+	{
+		"name": "Ent Forest",
+		"uniqueTo": "Sindar Elves",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Provides [1] [Great Ent]",
+			"Must be next to [Forest]",
+			"Unsellable"
+		]
+	},
+	{
+		"name": "Harad Training Grounds",
+		"uniqueTo": "Harad",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"New [Haradrim Lancer] units start with [30] Experience in this city",
+			"Unsellable"
+		]
+	},
+	//WONDERS
+	{
+		"name": "Argonath",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {
+			"Great Administrator": 2
+		},
+		"uniques": [
+			"[+25]% great person generation [in all cities]"
+		],
+		"requiredTech": "Physics"
+	},
+	{
+		"name": "Dome of Stars",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {
+			"Great Artist": 2
+		},
+		"uniques": [
+			"[+50]% [Culture] [in all cities]"
+		],
+		"requiredTech": "Acoustics"
+	},
+	{
+		"name": "White Tower of Ecthelion",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {
+			"Great Artist": 1
+		},
+		"uniques": [
+			"[10]% unhappiness from population [in all cities]"
+		],
+		"requiredTech": "Banking",
+	},
+	{
+		"name": "Amon Sul",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {
+			"Great Artist": 2
+		},
+		"isWonder": true,
+		"uniques": [
+			"Empire enters golden age"
+		],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Meduseld",
+		"culture": 3,
+		"isWonder": true,
+		"greatPersonPoints": {
+			"production": 2
+		},
+		"providesFreeBuilding": "Castle",
+		"uniques": [
+			"+[15]% combat bonus for units fighting in [Friendly Land]"
+		],
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "Minas Morgul",
+		"culture": 1,
+		"greatPersonPoints": {
+			"Great Artist": 1
+		},
+		"isWonder": true,
+		"percentStatBonus": {
+			"culture": 20
+		},
+		"uniques": [
+			"All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
+			"Gain a free [Castle] [in this city]"
+		],
+		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Dol Guldur",
+		"culture": 1,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"isWonder": true,
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in all cities]",
+			"[-25]% Gold cost of acquiring tiles [in all cities]"
+		],
+		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Temple of Melian",
+		"culture": 1,
+		"isWonder": true,
+		"cost": 185,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"uniques": [
+			"[+10]% [Food] [in all cities]",
+			"[+15]% Production when constructing [Ranged] units [in all cities]"
+		],
+		"requiredTech": "Archery"
+	},
+	{
+		"name": "Alqualondë",
+		"culture": 2,
+		"gold": 4,
+		"greatPersonPoints": {
+			"Great Merchant": 1
+		},
+		"isWonder": true,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Gold] from [Water] tiles [in this city]"
+		],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Nargothrond",
+		"culture": 5,
+		"food": 2,
+		"isWonder": true,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "The Great Archive",
+		"science": 2,
+		"culture": 1,
+		"greatPersonPoints": {
+			"Great Scientist": 1
+		},
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": [
+			"Free Technology",
+			"Gain a free [Library] [in this city]"
+		]
+	},
+	{
+		"name": "Orthanc",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"isWonder": true,
+		"uniques": [
+			"[+50]% Golden Age length"
+		],
+		"requiredTech": "Guilds",
+	},
+	{
+		"name": "The Deeping Wall",
+		"culture": 3,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"isWonder": true,
+		"uniques": [
+			"Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)",
+			"Gain a free [Walls] [in this city]"
+		],
+		"requiredTech": "Engineering",
+	},
+	{
+		"name": "Minas Anor",
+		"gold": 3,
+		"happiness": 2,
+		"greatPersonPoints": {
+			"Great Merchant": 1
+		},
+		"culture": 1,
+		"isWonder": true,
+		"uniques": [
+			"Gold from all trade routes +25%",
+			"Must have an owned [Mountains] within [2] tiles"
+		],
+		"requiredTech": "Engineering",
+	},
+
+	{
+		"name": "The Mirror of Galadriel",
+		"culture": 3,
+		"science": 1,
+		"greatPersonPoints": {
+			"Great Scientist": 1
+		},
+		"isWonder": true,
+		"uniques": [
+			"Free Social Policy"
+		],
+		"requiredTech": "Philosophy"
+	},
+	
+//-----------------------------------------------
+
+	{
+		"name": "Mint",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": [
+			"Gold Ore",
+			"Silver",
+			"Copper"
+		],
+		"specialistSlots": {
+			"Seller": 1
+		},
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+3 Gold] from [Gold Ore] tiles [in this city]",
+			"[+2 Gold] from [Silver] tiles [in this city]",
+			"[+1 Gold] from [Copper] tiles [in this city]"
+		],
+		"requiredTech": "Currency"
+	},
+]

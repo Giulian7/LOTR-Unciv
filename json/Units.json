@@ -1,0 +1,179 @@
+[
+    //	--	--	--	--	--UNBUILDABLE--	--	--	--	--	--
+        {
+            "name": "Lightning Bolt",
+            "unitType": "Missile",
+            "uniqueTo": "Isengard",
+            "movement": 1,
+            "strength": 1,
+            "rangedStrength": 25,
+            "range": 5,
+            "uniques": [
+                "Unbuildable",
+                "[-100]% maintenance costs",
+                "[+50]% Strength <during the [Third Age]>",
+                "[+100]% Strength <during the [Fourth Age]>"
+            ],
+            "attackSound": "torpedo"
+        },
+        {
+            "name": "Watchtower Guard",
+            "unitType": "Fighter",
+            "uniqueTo": "Arnor",
+            "movement": 0,
+            "strength": 1,
+            "rangedStrength": 1,
+            "range": 1,
+            "uniques": [
+                "Unbuildable"
+            ]
+        },
+        {
+            "name": "Barricade Archer",
+            "uniqueTo": "Mordor",
+            "unitType": "Bomber",
+            "movement": 1,
+            "strength": 1,
+            "rangedStrength": 19,
+            "cost": 75,
+            "uniques": [
+                "Unbuildable"
+            ],
+            "attackSound": "arrow"
+        },
+//CIVILIAN STD
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles"
+		],
+		"cost": 60
+	},
+    {
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"May create improvements on water resources"
+		]
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20
+	},
+//	--	--	--	--	--	--FIRST AGE--	--	--	--	--	--	--
+
+//RANGED
+{
+    "name": "Archer",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 5,
+    "rangedStrength": 7,
+    "cost": 40,
+    "requiredTech": "Archery",
+    "obsoleteTech": "Construction",
+    "upgradesTo": "Composite Bowman",
+    "attackSound": "arrow"
+},
+{
+    "name": "Goblin Archer",
+    "unitType": "Ranged",
+    "uniqueTo": "Barbarians",
+    "replaces": "Archer",
+    "movement": 2,
+    "strength": 4,
+    "rangedStrength": 8,
+    "cost": 40,
+    "requiredTech": "Archery",
+    "obsoleteTech": "Construction",
+    "upgradesTo": "Composite Bowman",
+    "attackSound": "arrow"
+},
+{
+    "name": "Haradrim Archer",
+    "unitType": "Ranged",
+    "uniqueTo": "Harad",
+    "replaces": "Archer",
+    "movement": 3,
+    "strength": 4,
+    "rangedStrength": 8,
+    "cost": 40,
+    "requiredTech": "Archery",
+    "upgradesTo": "Composite Bowman",
+    "uniques": [
+        "[+25]% Strength <when fighting in [Desert] tiles>"
+    ],
+    "attackSound": "arrow"
+},
+{
+    "name": "Composite Bowman",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 7,
+    "rangedStrength": 12,
+    "cost": 75,
+    "requiredTech": "Construction",
+    "obsoleteTech": "Machinery",
+    "upgradesTo": "Crossbowman",
+    "attackSound": "arrow"
+},
+{
+    "name": "Axe Thrower",
+    "uniqueTo": "Dwarves",
+    "replaces": "Composite Bowman",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 12,
+    "rangedStrength": 13,
+    "range": 1,
+    "cost": 75,
+    "requiredTech": "Construction",
+    "upgradesTo": "Crossbowman",
+    "attackSound": "arrow"
+},
+{
+    "name": "Strider",
+    "uniqueTo": "Arnor",
+    "replaces": "Composite Bowman",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 8,
+    "rangedStrength": 13,
+    "range": 2,
+    "cost": 75,
+    "requiredTech": "Construction",
+    "upgradesTo": "Crossbowman",
+    "uniques": [
+        "Ignores terrain cost"
+    ],
+    "attackSound": "arrow"
+},
+//WATER
+{
+    "name": "Galley",
+    "unitType": "Melee Water",
+    //"uniqueTo": "Barbarian",
+    "movement": 3,
+    "strength": 8,
+    "cost": 40,
+    "uniques": [
+        "Cannot enter ocean tiles"
+    ],
+    //"upgradesTo": "Trireme",
+    "attackSound": "nonmetalhit"
+},
+]

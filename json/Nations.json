@@ -1,0 +1,207 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [
+			255,
+			255,
+			255
+		]
+		//		"innerColor": [255,255,255]
+	},
+//  --  --  --  --HUMAN--   --  --  --  --  --
+    {
+		"name": "Arnor",
+		"leaderName": "Elendil",
+		"style": "motw",
+		"adjective": [
+			"Arnorian"
+		],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		"declaringWar": "The Last Alliance declares war on you!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "I am Elendil!",
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		"tradeRequest": "Want to trade?",
+		"outerColor": [
+			21,
+			121,
+			133
+		],
+		"innerColor": [
+			220,
+			229,
+			230
+		],
+		"uniqueName": "Numenorean Inheritance",
+		"uniqueText": "-25% Culture cost of acquiring tiles in all cities, -25% Gold cost of acquiring tiles in all cities.",
+		"uniques": [
+			"Gain a free [RSupply] [in all cities]",
+			"Gain a free [Rings] [in capital]",
+			"Gain a free [Good] [in capital]",
+			"[-25]% Culture cost of natural border growth [in all cities]",
+			"[-25]% Gold cost of acquiring tiles [in all cities]"
+		],
+		"cities": [
+			"Annuminas",
+			"Amon Sul",
+			"Fornost",
+			"Rhudaur",
+			"Cardolan",
+			"Arthedain",
+			"Old Forest",
+			"Evendim",
+			"Nenuial",
+			"Tyrn Gothad",
+			"Tharbad",
+			"Norbury",
+			"Elostirion",
+			"Archet",
+			"Combe",
+			"Tharbad",
+			"Chetwood",
+			"Midgewater"
+		]
+	},
+	{
+		"name": "Gondor",
+		"leaderName": "Aragorn",
+		"adjective": [
+			"Gondorian"
+		],
+		"style": "motw",
+		"startBias": [
+			"Grassland"
+		],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		"declaringWar": "For the White City!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Greeting from Aragorn",
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		"tradeRequest": "Want to trade?",
+		"outerColor": [
+			1,
+			0,
+			84
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"uniqueName": "For the White City",
+		"uniqueText": "Workers improve tiles 25% faster, receive a free Worker when you discover Pottery",
+		"uniques": [
+			"Tile improvement speed +25%",
+			"Receive free [Worker] when you discover [Pottery]"
+		],
+		"cities": [
+			"Minas Tirith",
+			"Osgiliath",
+			"Ithilien",
+			"Cair Andros",
+			"Dol Amroth",
+			"Lamedon",
+			"Henneth Annun",
+			"Lossarnach",
+			"Lebennin",
+			"Anfalas",
+			"Belfalas",
+			"Morthond",
+			"Ringlo Vale",
+			"Andrast",
+			"Pelargir",
+			"Linhir",
+			"Tarnost",
+			"Ethring"
+		]
+	},
+    {
+		"name": "Rohan",
+		"leaderName": "Theoden",
+		"adjective": ["Rohan"],
+		"style": "motw",
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		"declaringWar": "Muster the Rohirrim!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Theoden in person send you his greetings.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		"tradeRequest": "Want to trade?",
+		"outerColor": [2,112,11],
+		"innerColor": [224,218,157],
+		"uniqueName": "Muster the Rohirrim",
+		"uniqueText": "Starts with Animal Husbandry. +1 Movement for all Mounted units, double quantity of Horses and Horses provide +1 Food.",
+        "uniques": [
+			"Starts with [Animal Husbandry]",
+			"[+1] Movement <for [Mounted] units>",
+			"Double quantity of [Horses] produced",
+			"[+1 Food] from every [Horses]"
+		],
+		"cities": [
+			"Edoras",
+			"Helm's Deep",
+			"Snowbourn",
+			"Aldburg",
+			"Dunharrow",
+			"Grimslade",
+			"Fords of Isen",
+			"Gap of Rohan",
+			"Eastemnet",
+			"Eastfold",
+			"Westemnet",
+			"Folde",
+			"Westfold",
+			"The Wold",
+			"West-March",
+			"Minhiriath",
+			"Meduseld",
+			"Framsburg"
+		]
+	},
+//	--	--	--	--	--  ELF  --	--	--	--	--	--
+
+//	--	--	--	--	--DWARF--	--	--	--	--	--
+
+//	--	--	--	--	--MORGOTH--	--	--	--	--	--
+
+//	--	--	--	--	--CITY STATES--	--	--	--	--
+
+	//HUMAN
+	{
+		"name": "Umbar",
+
+	}
+
+
+//Barbarian
+{
+	"name": "Barbarians",
+	"outerColor": [
+		0,
+		0,
+		0
+	],
+	"innerColor": [
+		182,
+		0,
+		0
+	],
+	"uniques": [
+		"Can only heal by pillaging"
+	]
+}
+
+]
