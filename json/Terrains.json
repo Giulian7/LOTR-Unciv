@@ -14,9 +14,10 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [107,167,193],
-		"uniques": ["[+2] to Fertility for Map Generation",
-					"Considered [Desirable] when determining start locations <on water maps>",
-					"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"uniques": [
+			"[+2] to Fertility for Map Generation",
+			"Considered [Desirable] when determining start locations <on water maps>",
+			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Grassland",
@@ -311,6 +312,23 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
+	
+	{
+		"name": "Waterfall",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food": 1,
+		"production": 1,
+		"occursOn": ["Hill","Plains","Grassland"],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] to [4] [Mountain] tiles",
+			"Must be adjacent to [3] to [6] [Elevated] tiles",
+			"Must be adjacent to [0] to [3] [Plains] tiles",
+			"Must be adjacent to [0] to [3] [Tundra] tiles"			
+		]
+		
+	},
  
 	// Natural Wonders
 	{
@@ -336,11 +354,13 @@
 		"science": 2,
 		"happiness": 3,
 		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
 			"Must be adjacent to [3] to [6] [Elevated] tiles",
 			"Must be adjacent to [0] to [3] [Desert] tiles",
-			"Must be adjacent to [0] to [3] [Tundra] tiles"],
+			"Must be adjacent to [0] to [3] [Tundra] tiles"
+		],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -355,9 +375,11 @@
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Jungle] tiles",
-			"Grants 500 Gold to the first civilization to discover it"],
+			"Grants 500 Gold to the first civilization to discover it"
+		],
 		"weight": 2
 	},
 	{ // This will count as "Fresh water" in civ 6
@@ -369,9 +391,11 @@
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
 			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
-			"Tile provides yield without assigned population"],
+			"Tile provides yield without assigned population"
+		],
 		"weight": 1
 	},
 	{
@@ -440,8 +464,10 @@
 		"type": "NaturalWonder",
 		"gold": 10,
 		"occursOn": ["Plains","Mountain"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [1] to [6] [Hill] tiles"],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Hill] tiles"
+		],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -469,10 +495,12 @@
 		"faith": 6,
 		"happiness": 2,
 		"occursOn": ["Plains","Grassland"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must be adjacent to [0] to [1] [Desert] tiles",
-			"Must be adjacent to [4] to [6] [Elevated] tiles"],
+			"Must be adjacent to [4] to [6] [Elevated] tiles"
+		],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -483,11 +511,13 @@
 		"type": "NaturalWonder",
 		"faith": 8,
 		"occursOn": ["Desert","Plains"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
-			"Must be adjacent to [3] to [6] [Desert] tiles"],
+			"Must be adjacent to [3] to [6] [Desert] tiles"
+		],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
