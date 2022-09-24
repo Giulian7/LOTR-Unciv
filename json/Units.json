@@ -84,7 +84,7 @@
     "strength": 5,
     "rangedStrength": 7,
     "cost": 40,
-    "requiredTech": "Archery",
+    "requiredTech": "Forestry",
     "obsoleteTech": "Construction",
     "upgradesTo": "Composite Bowman",
     "attackSound": "arrow"
@@ -98,7 +98,7 @@
     "strength": 4,
     "rangedStrength": 8,
     "cost": 40,
-    "requiredTech": "Archery",
+    "requiredTech": "Forestry",
     "obsoleteTech": "Construction",
     "upgradesTo": "Composite Bowman",
     "attackSound": "arrow"
@@ -112,7 +112,7 @@
     "strength": 4,
     "rangedStrength": 8,
     "cost": 40,
-    "requiredTech": "Archery",
+    "requiredTech": "Forestry",
     "upgradesTo": "Composite Bowman",
     "uniques": [
         "[+25]% Strength <when fighting in [Desert] tiles>"
