@@ -285,7 +285,21 @@
 			"[+50]% Strength <vs [Mounted] units>"
 		],
 		"attackSound": "metalhit"
-	}, 
+	},
+	{
+		"name": "Longswordsman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"cost": 56,
+		"requiredTech": "Metal Casting",
+		"requiredResource": "Iron",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	
 
     //MOUNTED
     {
