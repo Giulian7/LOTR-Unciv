@@ -11,8 +11,7 @@
 			"Consumes [1] [Elven Rings]",
 
 			"Not displayed as an available construction without [Elven Rings]",
-			"Can only be built [in capital]" 
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -25,8 +24,7 @@
 			"Provides [1] [Ring]",
 			"Consumes [1] [Elven Rings]",
 			"Not displayed as an available construction without [Elven Rings]",
-			"Not displayed as an available construction without [Palace]"
-		]
+			],
 	},
 	{
 		"name": "The 3rd Elven Ring",
@@ -38,7 +36,7 @@
 			"Provides [1] [Ring]",
 			"Consumes [1] [Elven Rings]",
 			"Not displayed as an available construction without [Elven Rings]",
-			"Not displayed as an available construction without [Palace]"
+			 "Can only be built [in capital]"
 		]
 	},
 //	--	--	--	--	--MEN RINGS--	--	--	--	--	--	--
@@ -51,7 +49,7 @@
 			"Provides [1] [Ring]",
 			"Consumes [1] [Men Rings]",
 			"Not displayed as an available construction without [Men Rings]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -64,7 +62,7 @@
 			"Consumes [1] [Men Rings]",
 			"Consumes [4] [Supply]",
 			"Not displayed as an available construction without [Men Rings]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -77,7 +75,7 @@
 			"Consumes [1] [Men Rings]",
 			"Consumes [4] [Supply]",
 			"Not displayed as an available construction without [Men Rings]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -90,7 +88,7 @@
 			"Consumes [1] [Men Rings]",
 			"Consumes [4] [Supply]",
 			"Not displayed as an available construction without [Men Rings]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -103,7 +101,7 @@
 			"Consumes [1] [Men Rings]",
 			"Consumes [4] [Supply]",
 			"Not displayed as an available construction without [Men Rings]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -116,7 +114,7 @@
 			"Consumes [1] [Men Rings]",
 			"Consumes [4] [Supply]",
 			"Not displayed as an available construction without [Men Rings]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -129,7 +127,7 @@
 			"Consumes [1] [Men Rings]",
 			"Consumes [4] [Supply]",
 			"Not displayed as an available construction without [Men Rings]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -142,7 +140,7 @@
 			"Consumes [1] [Men Rings]",
 			"Consumes [4] [Supply]",
 			"Not displayed as an available construction without [Men Rings]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -155,7 +153,7 @@
 			"Consumes [1] [Men Rings]",
 			"Consumes [4] [Supply]",
 			"Not displayed as an available construction without [Men Rings]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 //	--	--	--	--	--	--DWARVEN RINGS--	--	--	--	--	--
@@ -169,7 +167,7 @@
 			"Provides [1] [Ring]",
 			"Consumes [2] [Iron]",
 			"Not displayed as an available construction without [Iron]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -181,7 +179,7 @@
 			"Will not be displayed in Civilopedia",
 			"Provides [1] [Ring]",
 			"Not displayed as an available construction without [Mithril]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -194,7 +192,7 @@
 			"Provides [1] [Ring]",
 			"Consumes [2] [Copper]",
 			"Not displayed as an available construction without [Copper]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -206,7 +204,7 @@
 			"Will not be displayed in Civilopedia",
 			"Provides [1] [Ring]",
 			"Not displayed as an available construction without [Gold Ore]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -218,7 +216,7 @@
 			"Will not be displayed in Civilopedia",
 			"Provides [1] [Ring]",
 			"Not displayed as an available construction without [Gems]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -230,7 +228,7 @@
 			"Will not be displayed in Civilopedia",
 			"Provides [1] [Ring]",
 			"Not displayed as an available construction without [Silver]",
-			"Not displayed as an available construction without [Palace]"
+			"Can only be built [in capital]"
 		]
 	},
 	{
@@ -248,10 +246,9 @@
 		"uniqueTo": "Isengard",
 		"cost": 1,
 		"uniques": [
-			"Not displayed as an available construction without [Palace]",
+			"Can only be built [in capital]"
 			"Free [Lightning Bolt] appears",
-			"Unsellable",
-			"Will not be displayed in Civilopedia"
+			"Unsellable"
 		]
 	},
 	{
@@ -259,7 +256,7 @@
 		"uniqueTo": "Isengard",
 		"cost": 1,
 		"uniques": [
-			"Not displayed as an available construction without [Palace]",
+			"Can only be built [in capital]"
 			"Free [Lightning Bolt] appears",
 			"Unsellable",
 			"Unlocked with [Second Age]",
@@ -271,7 +268,7 @@
 		"uniqueTo": "Isengard",
 		"cost": 1,
 		"uniques": [
-			"Not displayed as an available construction without [Palace]",
+			"Can only be built [in capital]"
 			"Free [Lightning Bolt] appears",
 			"Unsellable",
 			"Unlocked with [Third Age]",
@@ -283,7 +280,7 @@
 		"uniqueTo": "Isengard",
 		"cost": 1,
 		"uniques": [
-			"Not displayed as an available construction without [Palace]",
+			"Can only be built [in capital]"
 			"Free [Lightning Bolt] appears",
 			"Unsellable",
 			"Unlocked with [Fourth Age]"
@@ -388,7 +385,7 @@
 		"greatPersonPoints": {
 			"production": 2
 		},
-		"providesFreeBuilding": "Castle",
+		//"providesFreeBuilding": "Castle",
 		"uniques": [
 			"+[15]% combat bonus for units fighting in [Friendly Land]"
 		],
@@ -435,7 +432,7 @@
 			"[+10]% [Food] [in all cities]",
 			"[+15]% Production when constructing [Ranged] units [in all cities]"
 		],
-		"requiredTech": "Archery"
+		"requiredTech": "Forestry"
 	},
 	{
 		"name": "Alqualondë",
@@ -499,7 +496,7 @@
 			"Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)",
 			"Gain a free [Walls] [in this city]"
 		],
-		"requiredTech": "Engineering",
+		"requiredTech": "Mathematics",
 	},
 	{
 		"name": "Minas Anor",
@@ -514,7 +511,7 @@
 			"Gold from all trade routes +25%",
 			"Must have an owned [Mountains] within [2] tiles"
 		],
-		"requiredTech": "Engineering",
+		"requiredTech": "Construction",
 	},
 
 	{
