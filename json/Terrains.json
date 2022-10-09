@@ -14,10 +14,9 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [107,167,193],
-		"uniques": [
-			"[+2] to Fertility for Map Generation",
-			"Considered [Desirable] when determining start locations <on water maps>",
-			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"uniques": ["[+2] to Fertility for Map Generation",
+					"Considered [Desirable] when determining start locations <on water maps>",
+					"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Grassland",
@@ -167,6 +166,21 @@
 	
 	// Terrain features
 	{
+		"name": "Corruption",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Hill"],
+		"uniques": [
+			"Rough terrain",
+			"Base Terrain on this tile is not counted for Region determination",
+			"A Region is formed with at least [60]% [Hill] tiles, with priority [10]",
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
 		"name": "Hill",
 		"type": "TerrainFeature",
 		"production": 2,
@@ -258,7 +272,7 @@
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"]
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
 		"defenceBonus": -0.15
 	},
 	{
@@ -312,25 +326,21 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
-	
-	{
-		"name": "Waterfall",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"food": 1,
-		"production": 1,
-		"occursOn": ["Hill","Plains","Grassland"],
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] to [4] [Mountain] tiles",
-			"Must be adjacent to [3] to [6] [Elevated] tiles",
-			"Must be adjacent to [0] to [3] [Plains] tiles",
-			"Must be adjacent to [0] to [3] [Tundra] tiles"			
-		]
-		
-	},
  
 	// Natural Wonders
+	{
+		"name": "Mount Doom",
+		"type": "NaturalWonder",
+		"science": 5,
+		"occursOn": ["Ocean"],
+		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [0] [Ice] tiles",
+			"Neighboring tiles will convert to [Coast]"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
 	{
 		"name": "Great Barrier Reef",
 		"type": "NaturalWonder",
@@ -354,13 +364,11 @@
 		"science": 2,
 		"happiness": 3,
 		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
 			"Must be adjacent to [3] to [6] [Elevated] tiles",
 			"Must be adjacent to [0] to [3] [Desert] tiles",
-			"Must be adjacent to [0] to [3] [Tundra] tiles"
-		],
+			"Must be adjacent to [0] to [3] [Tundra] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -375,11 +383,9 @@
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Jungle] tiles",
-			"Grants 500 Gold to the first civilization to discover it"
-		],
+			"Grants 500 Gold to the first civilization to discover it"],
 		"weight": 2
 	},
 	{ // This will count as "Fresh water" in civ 6
@@ -391,11 +397,9 @@
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
-			"Tile provides yield without assigned population"
-		],
+			"Tile provides yield without assigned population"],
 		"weight": 1
 	},
 	{
@@ -433,19 +437,6 @@
 		"weight": 10
 	},
 	{
-		"name": "Krakatoa",
-		"type": "NaturalWonder",
-		"science": 5,
-		"occursOn": ["Ocean"],
-		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [0] [Ice] tiles",
-			"Neighboring tiles will convert to [Coast]"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
 		"name": "Rock of Gibraltar",
 		"type": "NaturalWonder",
 		"food": 2,
@@ -464,10 +455,8 @@
 		"type": "NaturalWonder",
 		"gold": 10,
 		"occursOn": ["Plains","Mountain"],
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [1] to [6] [Hill] tiles"
-		],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Hill] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -495,12 +484,10 @@
 		"faith": 6,
 		"happiness": 2,
 		"occursOn": ["Plains","Grassland"],
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must be adjacent to [0] to [1] [Desert] tiles",
-			"Must be adjacent to [4] to [6] [Elevated] tiles"
-		],
+			"Must be adjacent to [4] to [6] [Elevated] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -511,13 +498,11 @@
 		"type": "NaturalWonder",
 		"faith": 8,
 		"occursOn": ["Desert","Plains"],
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
-			"Must be adjacent to [3] to [6] [Desert] tiles"
-		],
+			"Must be adjacent to [3] to [6] [Desert] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,

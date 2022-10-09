@@ -64,8 +64,7 @@
 			{
 				"name": "Astronomy",
 				"row": 2,
-				"prerequisites": ["Writing","Forestry"],
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables embarked units to enter ocean tiles"], 
+				"prerequisites": ["Writing","Forestry"], 
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
 			{
@@ -124,11 +123,12 @@
 				"name": "Natural Studies",
 				"row": 5,
 				"prerequisites": ["Trapping", "Agriculture"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+				"quote": "--"
 			},
 			{
 				"name": "Horseback Riding",
 				"row": 6,
+				"cost": 175,
 				"prerequisites": ["Agricolture","The Wheel"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
@@ -140,10 +140,9 @@
 			},
 			{
 				"name": "Metallurgy",
-				"cost": 150,
 				"row": 10,
 				"prerequisites": ["Mining"],
-				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+				"quote": "--"
 			}
 		]	
 	},
@@ -163,8 +162,9 @@
 			{
 				"name": "Navigation",
 				"row": 4,
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables embarked units to enter ocean tiles"],
 				"prerequisites": ["Sailing", "Astronomy"],
-				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+				"quote": "--"
 			},
 			{
 				"name": "Infrastuctures",
@@ -221,7 +221,7 @@
 			},
 			{
 				"name": "Architecture",
-				"row": 4,
+				"row": 7,
 				"prerequisites": ["Construction"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},

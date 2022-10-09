@@ -1,0 +1,155 @@
+Spearman upgrades to unit Pikeman which does not exist!
+Rhudaur Spearman upgrades to unit Pikeman which does not exist!
+Easterling upgrades to unit Pikeman which does not exist!
+Phalanx requires tech Bronze Working which does not exist!
+Phalanx upgrades to unit Pikeman which does not exist!
+Swordsman requires tech Iron Working which does not exist!
+Swordsman obsoletes at tech Steel which does not exist!
+Swordsman upgrades to unit Longswordsman which does not exist!
+Orc Marauder requires tech Iron Working which does not exist!
+Orc Marauder upgrades to unit Longswordsman which does not exist!
+Uruk-Hai requires tech Iron Working which does not exist!
+Uruk-Hai upgrades to unit Longswordsman which does not exist!
+Guardian requires tech Iron Working which does not exist!
+Guardian upgrades to unit Longswordsman which does not exist!
+Horseman upgrades to unit Knight which does not exist!
+Rohirrim upgrades to unit Knight which does not exist!
+Wainrider upgrades to unit Knight which does not exist!
+Ballista upgrades to unit Catapult which does not exist!
+The 1st Elven Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 2nd Elven Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 3rd Elven Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 1st Men Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 2nd Men Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 3rd Men Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 4th Men Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 5th Men Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 6th Men Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 7th Men Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 8th Men Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 9th Men Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 1st Dwarven Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 2nd Dwarven Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 3rd Dwarven Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 4th Dwarven Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 5th Dwarven Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+The 7th Dwarven Ring's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+First Lightning Bolts's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+Second Lightning Bolts's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+Third Lightning Bolt's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+Fourth Lightning Bolt's unique "Not displayed as an available construction without [Palace]" contains parameter Palace, which does not fit parameter type buildingName or tech or resource or policy !
+Ent Forest's unique "Provides [1] [Great Ent]" contains parameter Great Ent, which does not fit parameter type resource !
+Minas Morgul's unique "Gain a free [Castle] [in this city]" contains parameter Castle, which does not fit parameter type buildingName !
+Temple of Melian requires tech Archery which does not exist!
+The Great Archive's unique "Gain a free [Library] [in this city]" contains parameter Library, which does not fit parameter type buildingName !
+The Deeping Wall requires tech Engineering which does not exist!
+The Deeping Wall's unique "Gain a free [Walls] [in this city]" contains parameter Walls, which does not fit parameter type buildingName !
+Minas Anor requires tech Engineering which does not exist!
+Mint provides specialist Seller which does not exist!
+Iron revealed by tech Iron Working which does not exist!
+Niter revealed by tech Chemistry which does not exist!
+Farm requires tech Agriculture which does not exist!
+Mill requires tech Agriculture which does not exist!
+Mine's unique "[+1 Production] <after discovering [Iron Working]>" contains the conditional "after discovering [Iron Working]". This contains the parameter Iron Working which does not fit parameter type tech !
+Encampment requires tech Pottery which does not exist!
+Quarry requires tech Masonry which does not exist!
+Fishing Boats's unique "[+1 Gold] <after discovering [Compass]>" contains the conditional "after discovering [Compass]". This contains the parameter Compass which does not fit parameter type tech !
+Fort requires tech Masonry which does not exist!
+Remove Jungle requires tech Bronze Working which does not exist!
+Remove Marsh requires tech Masonry which does not exist!
+Manufactory's unique "[+1 Production] <after discovering [Chemistry]>" contains the conditional "after discovering [Chemistry]". This contains the parameter Chemistry which does not fit parameter type tech !
+Natural Studies requires tech Agriculture which does not exist!
+Economics requires tech Printing Press which does not exist!
+Nonexistent building Monument built by settlers when starting in Second Age
+Nonexistent building Granary built by settlers when starting in Second Age
+Nonexistent building Monument built by settlers when starting in Third Age
+Nonexistent building Granary built by settlers when starting in Third Age
+Nonexistent building Lighthouse built by settlers when starting in Third Age
+Nonexistent building Walls built by settlers when starting in Third Age
+Nonexistent building Monument built by settlers when starting in Fourth Age
+Nonexistent building Granary built by settlers when starting in Fourth Age
+Nonexistent building Lighthouse built by settlers when starting in Fourth Age
+Nonexistent building Walls built by settlers when starting in Fourth Age
+Nonexistent building Market built by settlers when starting in Fourth Age
+Nonexistent building Workshop built by settlers when starting in Fourth Age
+Nonexistent building Temple built by settlers when starting in Fourth Age
+Nonexistent building Library built by settlers when starting in Fourth Age
+Nonexistent building Colosseum built by settlers when starting in Fourth Age
+Nonexistent unit Pikeman marked as starting unit when starting in Fourth Age
+Gondor's unique "Receive free [Worker] when you discover [Pottery]" contains parameter Pottery, which does not fit parameter type tech !
+Mordor's unique "[Great General] is earned [50]% faster" contains parameter Great General, which does not fit parameter type greatPerson !
+Mordor's unique "Gain a free [Nazgul Supply] [in capital]" contains parameter Nazgul Supply, which does not fit parameter type buildingName !
+Entrepreneurship's unique "[Great Merchant] is earned [25]% faster" contains parameter Great Merchant, which does not fit parameter type greatPerson !
+The 1st Elven Ring's unique "Requires [Tradition Complete]" is deprecated as of 3.19.12, replace with "Only available <after adopting [Tradition Complete]>"
+The 1st Elven Ring's unique "Not displayed as an available construction without [Elven Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Elven Rings]>"
+The 1st Elven Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 2nd Elven Ring's unique "Requires [Liberty Complete]" is deprecated as of 3.19.12, replace with "Only available <after adopting [Liberty Complete]>"
+The 2nd Elven Ring's unique "Not displayed as an available construction without [Elven Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Elven Rings]>"
+The 2nd Elven Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 3rd Elven Ring's unique "Requires [Honor Complete]" is deprecated as of 3.19.12, replace with "Only available <after adopting [Honor Complete]>"
+The 3rd Elven Ring's unique "Not displayed as an available construction without [Elven Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Elven Rings]>"
+The 3rd Elven Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 1st Men Ring's unique "Not displayed as an available construction without [Men Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Men Rings]>"
+The 1st Men Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 2nd Men Ring's unique "Not displayed as an available construction without [Men Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Men Rings]>"
+The 2nd Men Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 3rd Men Ring's unique "Not displayed as an available construction without [Men Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Men Rings]>"
+The 3rd Men Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 4th Men Ring's unique "Not displayed as an available construction without [Men Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Men Rings]>"
+The 4th Men Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 5th Men Ring's unique "Not displayed as an available construction without [Men Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Men Rings]>"
+The 5th Men Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 6th Men Ring's unique "Not displayed as an available construction without [Men Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Men Rings]>"
+The 6th Men Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 7th Men Ring's unique "Not displayed as an available construction without [Men Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Men Rings]>"
+The 7th Men Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 8th Men Ring's unique "Not displayed as an available construction without [Men Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Men Rings]>"
+The 8th Men Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 9th Men Ring's unique "Not displayed as an available construction without [Men Rings]" is deprecated as of 3.19.8, replace with "Only available <with [Men Rings]>"
+The 9th Men Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 1st Dwarven Ring's unique "Not displayed as an available construction without [Iron]" is deprecated as of 3.19.8, replace with "Only available <with [Iron]>"
+The 1st Dwarven Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 2nd Dwarven Ring's unique "Not displayed as an available construction without [Mithril]" is deprecated as of 3.19.8, replace with "Only available <with [Mithril]>"
+The 2nd Dwarven Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 3rd Dwarven Ring's unique "Not displayed as an available construction without [Copper]" is deprecated as of 3.19.8, replace with "Only available <with [Copper]>"
+The 3rd Dwarven Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 4th Dwarven Ring's unique "Not displayed as an available construction without [Gold Ore]" is deprecated as of 3.19.8, replace with "Only available <with [Gold Ore]>"
+The 4th Dwarven Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 5th Dwarven Ring's unique "Not displayed as an available construction without [Gems]" is deprecated as of 3.19.8, replace with "Only available <with [Gems]>"
+The 5th Dwarven Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+The 7th Dwarven Ring's unique "Not displayed as an available construction without [Silver]" is deprecated as of 3.19.8, replace with "Only available <with [Silver]>"
+The 7th Dwarven Ring's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+First Lightning Bolts's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+Second Lightning Bolts's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+Second Lightning Bolts's unique "Unlocked with [Second Age]" is deprecated as of 3.19.12, replace with "Only available <starting from the [Second Age]>"
+Third Lightning Bolt's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+Third Lightning Bolt's unique "Unlocked with [Third Age]" is deprecated as of 3.19.12, replace with "Only available <starting from the [Third Age]>"
+Fourth Lightning Bolt's unique "Not displayed as an available construction without [Palace]" is deprecated as of 3.19.8, replace with "Only available <after adopting [buildingName/tech/resource/policy]>", "Only available <with [buildingName/tech/resource/policy]>", "Only available <if [buildingName/tech/resource/policy] is constructed>", "Only available <after discovering [buildingName/tech/resource/policy]>"
+Fourth Lightning Bolt's unique "Unlocked with [Fourth Age]" is deprecated as of 3.19.12, replace with "Only available <starting from the [Fourth Age]>"
+The Nazguls's unique "Unlocked with [Second Age]" is deprecated as of 3.19.12, replace with "Only available <starting from the [Second Age]>"
+Argonath's unique "[+25]% great person generation [in all cities]" is deprecated As of 3.19.19, replace with "[+25]% Great Person generation [in all cities]"
+White Tower of Ecthelion's unique "[10]% unhappiness from population [in all cities]" is deprecated As of 3.19.19, replace with "[10]% Unhappiness from [Population] [in all cities]"
+Minas Anor's unique "Gold from all trade routes +25%" is deprecated as of 3.19.19, replace with "[+25]% [Gold] from Trade Routes"
+No need to add Writing as a prerequisite of Calendar - it is already implicit from the other prerequisites!
+Navigation's unique "Enables embarked units to enter ocean tiles" is deprecated as of 3.19.13, replace with "Enables [Embarked] units to enter ocean tiles <starting from the [Ancient era]>"
+Isengard's unique "67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment" is deprecated as of 4.0.3, replace with "When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>"
+Meritocracy's unique "[-5]% unhappiness from population [in all non-occupied cities]" is deprecated As of 3.19.19, replace with "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+Education's unique "Enables conversion of city production to science" is deprecated s of 4.1.14, replace with "Enables conversion of city production to [Science]"
+Guilds's unique "Enables conversion of city production to gold" is deprecated As of 4.1.14, replace with "Enables conversion of city production to [Gold]"
+Rationalism's unique "Production to science conversion in cities increased by 33%" is deprecated s of 4.1.14, replace with "Production to [Science] conversion in cities changed by [33]%"
+Scout's unique "Can build [Watchtower] improvement on tiles" looks like it may be a misspelling of:
+	"Can build [improvementFilter/terrainFilter] improvements on tiles"
+	"Can build improvements on tiles" (Deprecated)
+Scout's unique "Can build [Enplacement] improvement on tiles" looks like it may be a misspelling of:
+	"Can build [improvementFilter/terrainFilter] improvements on tiles"
+	"Can build improvements on tiles" (Deprecated)
+Mordor's unique "Gain a free [Nazgul]<when discovered [Metallurgy]>" looks like it may be a misspelling of:
+	"Gain a free [buildingName] [cityFilter]"
+Scout's unique "Can build [Watchtower] improvement on tiles" looks like it may be a misspelling of:
+	"Can build [improvementFilter/terrainFilter] improvements on tiles"
+	"Can build improvements on tiles" (Deprecated)
+Scout's unique "Can build [Enplacement] improvement on tiles" looks like it may be a misspelling of:
+	"Can build [improvementFilter/terrainFilter] improvements on tiles"
+	"Can build improvements on tiles" (Deprecated)
+Mordor's unique "Gain a free [Nazgul]<when discovered [Metallurgy]>" looks like it may be a misspelling of:
+	"Gain a free [buildingName] [cityFilter]"

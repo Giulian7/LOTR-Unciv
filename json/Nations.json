@@ -6,11 +6,11 @@
 			255,
 			255,
 			255
-		]
-		//		"innerColor": [255,255,255]
+		],
+		"innerColor": [255,255,255]
 	},
-//  --  --  --  --HUMAN--   --  --  --  --  --
-    {
+	//  --  --  --  --HUMAN--   --  --  --  --  --
+	{
 		"name": "Arnor",
 		"leaderName": "Elendil",
 		"style": "motw",
@@ -27,22 +27,11 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "Yes?!",
 		"tradeRequest": "Want to trade?",
-		"outerColor": [
-			21,
-			121,
-			133
-		],
-		"innerColor": [
-			220,
-			229,
-			230
-		],
+		"outerColor": [21,121,133],
+		"innerColor": [220,229,230],
 		"uniqueName": "Numenorean Inheritance",
 		"uniqueText": "-25% Culture cost of acquiring tiles in all cities, -25% Gold cost of acquiring tiles in all cities.",
 		"uniques": [
-			"Gain a free [RSupply] [in all cities]",
-			"Gain a free [Rings] [in capital]",
-			"Gain a free [Good] [in capital]",
 			"[-25]% Culture cost of natural border growth [in all cities]",
 			"[-25]% Gold cost of acquiring tiles [in all cities]"
 		],
@@ -124,12 +113,16 @@
 			"Ethring"
 		]
 	},
-    {
+	{
 		"name": "Rohan",
 		"leaderName": "Theoden",
-		"adjective": ["Rohan"],
+		"adjective": [
+			"Rohan"
+		],
 		"style": "motw",
-		"startBias": ["Plains"],
+		"startBias": [
+			"Plains"
+		],
 		"preferredVictoryType": "Domination",
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -140,11 +133,19 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "Yes?!",
 		"tradeRequest": "Want to trade?",
-		"outerColor": [2,112,11],
-		"innerColor": [224,218,157],
+		"outerColor": [
+			2,
+			112,
+			11
+		],
+		"innerColor": [
+			224,
+			218,
+			157
+		],
 		"uniqueName": "Muster the Rohirrim",
 		"uniqueText": "Starts with Animal Husbandry. +1 Movement for all Mounted units, double quantity of Horses and Horses provide +1 Food.",
-        "uniques": [
+		"uniques": [
 			"Starts with [Animal Husbandry]",
 			"[+1] Movement <for [Mounted] units>",
 			"Double quantity of [Horses] produced",
@@ -172,36 +173,249 @@
 		]
 	},
 //	--	--	--	--	--  ELF  --	--	--	--	--	--
-
 //	--	--	--	--	--DWARF--	--	--	--	--	--
-
 //	--	--	--	--	--MORGOTH--	--	--	--	--	--
-
-//	--	--	--	--	--CITY STATES--	--	--	--	--
-
-	//HUMAN
-	{
-		"name": "Umbar",
-
-	}
-
-
-//Barbarian
 {
-	"name": "Barbarians",
+	"name": "Mordor",
+	"leaderName": "Sauron",
+	"adjective": [
+		"Mordor"
+	],
+	"style": "Orc",
+	"startBias": [
+		"Corruption"
+	],
+	"preferredVictoryType": "Domination",
+	"startIntroPart1": "TBD",
+	"startIntroPart2": "TBD",
+	"declaringWar": "You cannot hide. I see you. There is no life in the void, only death.",
+	"attacked": "This will be your last act...",
+	"defeated": "...",
+	"introduction": "Bow at the presence of the mighty Dark Lord of Mordor: Sauron, the Black Master, Lord of The Ring",
+	"neutralHello": "...",
+	"hateHello": "Do I have to hear you?",
+	"tradeRequest": "The Dark Lord is asking you a tribute...",
+	"outerColor": [107,0,0],
+	"innerColor": [207,120,0],
+	"uniqueName": "Fellows of the Evil",
+	"uniqueText": "Great Generals are generated 50% faster. Receives a free Nazgul when you discover Metallurgy",
+	"uniques": [
+		"[Great General] is earned [50]% faster",
+		"Gain a free [Nazgul]<when discovered [Metallurgy]>",
+		"Gain a free [Nazgul Supply] [in capital]"
+	],
+	"cities": [
+		"Barad Dur","Orodruin","Gorgoroth",
+		"Udun","Nurn","Dagorlad",
+		"Durthang","Cirith Gorgor",
+		"Ered Lithui",
+		"Ered Duath",
+		"Cirith Ungol",
+		"Morgul Pass",
+		"Black Gate",
+		"Nargroth",
+		"Morgai",
+		"Morannon",
+		"Seregost",
+		"Lithlad",
+		"Carach Angren"
+	]
+},
+{
+	"name": "Angmar",
+	"leaderName": "Witch-king",
+	"adjective": ["Angmar"],
+	"startBias": [
+		"Tundra"
+	],
+	"style": "Orc",
+	"preferredVictoryType": "Domination",
+	"startIntroPart1": "TBD",
+	"startIntroPart2": "TBD",
+	"declaringWar": "No man can defeat me!",
+	"attacked": "Oh well, I presume you know what you're doing.",
+	"defeated": "It is over. Perhaps now I shall have peace, at last.",
+	"introduction": "Behold the King of Angmar, Terror of the North, Vassal of his majesty: Sauron.",
+	"neutralHello": "I listen you, for now...",
+	"hateHello": "Do I have to hear you?",
+	"tradeRequest": "An exchange?",
 	"outerColor": [
-		0,
-		0,
-		0
+		19,
+		38,
+		64
 	],
 	"innerColor": [
-		182,
-		0,
-		0
+		87,
+		123,
+		173
 	],
+	"uniqueName": "Terror of the North",
+	"uniqueText": "All Melee units receive Siege I promotion, +1 Movement and +10% Stength for all units during Golden Ages.",
 	"uniques": [
-		"Can only heal by pillaging"
+		"[Melee] units gain the [Siege I] promotion",
+		"[+1] Movement <for [All] units> <during a Golden Age>",
+		"[+10]% Strength <for [All] units> <during a Golden Age>"
+	],
+	"cities": [
+		"Carn Dum",
+		"Angmar",
+		"Forodwaith",
+		"East Angmar",
+		"Northern Hills",
+		"Dor Daedeloth",
+		"Forochel",
+		"Malenhad",
+		"Nan Gurth",
+		"Gorothlad",
+		"Gundabad",
+		"Himbar",
+		"Urugarth",
+		"Aughaire"
 	]
-}
-
+},
+{
+	"name": "Isengard",
+	"leaderName": "Saruman",
+	"adjective": [
+		"Isengard"
+	],
+	"style": "Orc",
+	"startBias": [
+		"Hill"
+	],
+	"preferredVictoryType": "Scientific",
+	"startIntroPart1": "TBD",
+	"startIntroPart2": "TBD",
+	"declaringWar": "A new power is rising!",
+	"attacked": "Oh well, I presume you know what you're doing.",
+	"defeated": "It is over. Perhaps now I shall have peace, at last.",
+	"introduction": "Welcome stranger, welcome in the land of the Isen. But remember, beware of your actions...",
+	"neutralHello": "Greetings.",
+	"hateHello": "Yes?!",
+	"tradeRequest": "Want to trade?",
+	"outerColor": [64,64,64],
+	"innerColor": [255,255,255],
+	"uniqueName": "The Voice of Saruman",
+	"uniqueText": "67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment. +25% Production towards Land units in capital. Capital can struck a Lighting Bolt (1 per Era) on the nearby enemies.",
+	"uniques": [
+		"67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
+		"[+25]% Production when constructing [Land] units [in capital]",
+		"May cast a lightning bolt"
+	],
+	"cities": [
+		"Isengard","Angrenost","Fords of Isen",
+		"Nan Curunir","Dol Baran","Angren River",
+		"Gwathlo","Methedras","Adorn",
+		"Wellinghall","Dunbog","Starkmoor",
+		"Pren Gwydh","Bonevales","Ral Methedras",
+		"Derndingle"
+	]
+},
+{
+	"name": "Orcs",
+	"leaderName": "Azog",
+	"adjective": ["Goblin"],
+	"startBias": [
+		"Hill"
+	],
+	"style": "Orc",
+	"preferredVictoryType": "Domination",
+	"startIntroPart1": "TBD",
+	"startIntroPart2": "TBD",
+	"declaringWar": "Argh!",
+	"attacked": "War? Warr!!",
+	"defeated": "Thy end comeng...",
+	"introduction": "Berbal! I Azog o' Moria, yu stink o' fear!",
+	"neutralHello": "What yu want?",
+	"hateHello": "Yes?!",
+	"tradeRequest": "Trad?",
+	"outerColor": [
+		54,
+		31,
+		33
+	],
+	"innerColor": [
+		125,
+		145,
+		26
+	],
+	"uniqueName": "Horror of the Deeps",
+	"uniqueText": "+20% Combat Bonus in Friendly Land. Melee units gain 50% more Experience from combat. A Balrog appears in your capital when you discover Mining",
+	"uniques": [
+		"+[20]% combat bonus for units fighting in [Friendly Land]",
+		"[50]% XP gained from combat <for [Melee] units>",
+		"Receive free [Balrog] when you discover [Mining]"
+	],
+	"cities": [
+		"Goblin town","Withered Heath",
+		"Ettenmoors","High Pass","Misty Mountains",
+		"Grey Mountains","Dwarrodelf","Glaurung",
+		"Ancalagon","Scatha","Gram Mountain",
+		"Rhimdath","Cold Fields","Hoardale"
+	]
+},
+//	--	--	--	--	--CITY STATES--	--	--	--	--
+	//HUMAN
+	{	//umbar
+		"name": "Corsairs of Umbar",
+		"adjective": ["The Corsairs"],
+		"cityStateType": "Militaristic",
+		"startBias": [
+			"Coast"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [0,0,0],
+		"innerColor": [255,69,0],
+		"cities": ["Umbar"]
+	},
+	{	//numenor
+		"name": "Numenor",
+		"adjective": ["Numenor"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [0,0,0],
+		"innerColor": [255,69,0],
+		"cities": ["Numenor"]
+	},
+	{	//dale
+		
+		"name": "Dale",
+		"adjective": ["Dale"],
+		"cityStateType": "Mercantile",
+		"startBias": ["River"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0,0,0],
+		"innerColor": [	194,97,255],
+		"cities": [
+			"Dale"
+		]
+	},
+	{
+		"name": "Beornings",
+		"adjective": ["Beornings"],
+		"cityStateType": "Mercantile",
+		"startBias": ["River"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0,0,0],
+		"innerColor": [	194,97,255],
+		"cities": [
+			"Vale of Anduin"
+		]
+	},
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0],
+		"uniques": ["Can only heal by pillaging"]
+	}
 ]
