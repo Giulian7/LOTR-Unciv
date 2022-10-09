@@ -84,8 +84,8 @@
 		"uniques": [
 			"Ignores terrain cost",
 			"Never appears as a Barbarian unit",
-            "Can build [Watchtower] improvement on tiles",
-            "Can build [Enplacement] improvement on tiles"
+           		"Can build [Watchtower] improvement on tiles",
+           		"Can build [Enplacement] improvement on tiles"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -111,9 +111,9 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-        "uniques": [
-            "[+10]% Strength <after discovering [Metallurgy]>"
-        ],
+       		"uniques": [
+           		"[+10]% Strength <after discovering [Metallurgy]>"
+       		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -140,8 +140,12 @@
 		"strength": 10,
 		"cost": 75,
 		"requiredTech": "Alloy",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
-		"[-1] Sight", "Can only attack [City] units"],
+		"uniques": [
+			"[+300]% Strength <vs cities> <when attacking>", 
+			"No defensive terrain bonus",
+			"[-33]% Strength <when defending>",
+			"[-1] Sight", "Can only attack [City] units"
+		],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
@@ -217,7 +221,7 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Metal Casting",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -226,11 +230,11 @@
 		"name": "Orc Marauder",
 		"unitType": "Melee",
 		"replaces": "Swordsman",
-		"uniqueTo": "Barbarians",
+		"uniqueTo": "Orcs",
 		"movement": 2,
 		"strength": 18,
 		"cost": 75,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Metallurgy",
 		"upgradesTo": "Longswordsman",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
@@ -243,7 +247,7 @@
 		"movement": 3,
 		"strength": 19,
 		"cost": 75,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Metallurgy",
 		"upgradesTo": "Longswordsman",
 		"requiredResource": "Iron",
 		"uniques": [
@@ -260,7 +264,7 @@
 		"movement": 3,
 		"strength": 20,
 		"cost": 75,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Metallurgy",
 		"upgradesTo": "Longswordsman",
 		"requiredResource": "Iron",
 		"uniques": [
@@ -269,6 +273,20 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Pikeman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"cost": 56,
+		"requiredTech": "Civil Service",
+		"requiredResource": "Copper",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	}, 
+
     //MOUNTED
     {
 		"name": "Horseman",
@@ -313,7 +331,7 @@
 		"movement": 3,
 		"strength": 16,
 		"cost": 56,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"uniques": [
