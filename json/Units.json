@@ -355,6 +355,18 @@
 		],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 56,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
     //RANGED
     {
         "name": "Archer",
@@ -456,6 +468,18 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
+	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 20,
+		"cost": 56,
+		"requiredTech": "Physics",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
 	},
     //WATER
     {
