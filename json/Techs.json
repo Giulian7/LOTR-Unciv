@@ -81,10 +81,10 @@
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
-				"name": "Agricolture",
+				"name": "Agriculture",
 				"row": 6,
 				"prerequisites": ["Animal Husbandry"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+				"quote": "--"
 			}, 
 			{
 				"name": "The Wheel",
