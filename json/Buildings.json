@@ -11,6 +11,7 @@
 			"Consumes [1] [Elven Rings]",
 
 			"Not displayed as an available construction without [Elven Rings]",
+			"Can only be built [in capital]" 
 			"Not displayed as an available construction without [Palace]"
 		]
 	},
@@ -341,7 +342,7 @@
 		"uniques": [
 			"[+25]% great person generation [in all cities]"
 		],
-		"requiredTech": "Physics"
+		"requiredTech": "Stone Working"
 	},
 	{
 		"name": "Dome of Stars",
@@ -353,7 +354,7 @@
 		"uniques": [
 			"[+50]% [Culture] [in all cities]"
 		],
-		"requiredTech": "Acoustics"
+		"requiredTech": "Astronomy"
 	},
 	{
 		"name": "White Tower of Ecthelion",
@@ -365,7 +366,7 @@
 		"uniques": [
 			"[10]% unhappiness from population [in all cities]"
 		],
-		"requiredTech": "Banking",
+		"requiredTech": "Construction",
 	},
 	{
 		"name": "Amon Sul",
@@ -551,4 +552,5 @@
 		],
 		"requiredTech": "Currency"
 	},
+	
 ]
