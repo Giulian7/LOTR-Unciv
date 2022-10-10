@@ -6,7 +6,6 @@
 		"cost": 1,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Requires [Tradition Complete]",
 			"Provides [1] [Ring]",
 			"Consumes [1] [Elven Rings]",
 
@@ -20,11 +19,11 @@
 		"cost": 1,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Requires [Liberty Complete]",
 			"Provides [1] [Ring]",
 			"Consumes [1] [Elven Rings]",
 			"Not displayed as an available construction without [Elven Rings]",
-			],
+			"Can only be built [in capital]"
+			]
 	},
 	{
 		"name": "The 3rd Elven Ring",
@@ -32,11 +31,10 @@
 		"cost": 1,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Requires [Honor Complete]",
 			"Provides [1] [Ring]",
 			"Consumes [1] [Elven Rings]",
 			"Not displayed as an available construction without [Elven Rings]",
-			 "Can only be built [in capital]"
+			"Can only be built [in capital]"
 		]
 	},
 //	--	--	--	--	--MEN RINGS--	--	--	--	--	--	--

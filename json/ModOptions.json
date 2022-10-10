@@ -1,7 +1,8 @@
 {
-    isBaseRuleset:true,
+    isBaseRuleset: true,
     modUrl:"https://github.com/Giulian7/LOTR-Unciv",
     author:Giulian7,
+	topics:[unciv-mod,unciv-mod-rulesets],
     constants:{unitUpgradeCost:{}}
 }
 
